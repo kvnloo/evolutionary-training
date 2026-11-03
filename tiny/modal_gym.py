@@ -205,7 +205,7 @@ class Lane:
                              "tokens": int((gen != self.tok.pad_token_id).sum()), "text": text[-1500:]})
         return sorted(rows, key=lambda r: r["id"])
 
-    def gold_logprob(self, items: list[dict], bs: int = 16) -> float:
+    def gold_logprob(self, items: list[dict], bs: int = 4) -> float:
         tot, n = 0.0, 0
         self.tok.padding_side = "right"
         try:
@@ -216,14 +216,14 @@ class Lane:
                 enc = self.tok(full, return_tensors="pt", padding=True, add_special_tokens=False).to("cuda")
                 plen = [len(self.tok(p, add_special_tokens=False)["input_ids"]) for p in ps]
                 with self.torch.no_grad():
-                    lp = self.torch.log_softmax(self.model(**enc).logits[:, :-1].float(), -1)
-                tgt = enc["input_ids"][:, 1:]
-                tl = lp.gather(-1, tgt.unsqueeze(-1)).squeeze(-1)
-                mask = enc["attention_mask"][:, 1:].clone()
-                for j, pl in enumerate(plen):
-                    mask[j, : pl - 1] = 0
-                tot += float((tl * mask).sum())
-                n += int(mask.sum())
+                    logits = self.model(**enc).logits  # bf16; per-sample float slices keep 248k-vocab models small
+                    for j, pl in enumerate(plen):
+                        end = int(enc["attention_mask"][j].sum())
+                        lg = logits[j, pl - 1:end - 1].float()
+                        tgt = enc["input_ids"][j, pl:end]
+                        tot -= float(self.torch.nn.functional.cross_entropy(lg, tgt, reduction="sum"))
+                        n += int(tgt.numel())
+                    del logits
         finally:
             self.tok.padding_side = "left"
         return tot / max(1, n)
