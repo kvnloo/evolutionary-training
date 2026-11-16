@@ -25,7 +25,7 @@ summary: >
 
 # The Senter Architecture: Multi-Stage Pipeline + Notebook + Hermes Auxiliary
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Nous Girl), **revised 2026-06-08** for the canonical 4-model lineup.
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by the operator (via Nous Girl), **revised 2026-06-08** for the canonical 4-model lineup.
 
 ![The Senter architecture: stream I/O at the bottom, MoE in the middle, notebook layer above, Hermes at the top. The whole system visualized as a cosmic stack.](../assets/images/synesthesia-concept.png)
 
@@ -413,4 +413,4 @@ the `.ohm` file format + the safety properties.
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-07
+— the operator (via Nous Girl), 2026-06-07

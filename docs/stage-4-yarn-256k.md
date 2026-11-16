@@ -110,7 +110,7 @@ extra work in the worst case.
 | Smoke test | ~10-15 min |
 | **Total** | **~8-16 hours** |
 
-## Open questions for Chris
+## Open questions for the operator
 
 1. **Turbo4 vs raw KV cache at 256K** — turbo4 quantizes KV to q4_0
    (~8x compression) and we get ~700MB KV cache. Raw is ~5.7GB. The

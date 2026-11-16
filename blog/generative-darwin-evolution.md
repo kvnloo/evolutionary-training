@@ -6,7 +6,7 @@
 > [`the-omni-family.md`](./the-omni-family.md) for the lineup.
 
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by the operator (via Nous Girl)
 
 ![A music synthesizer being transformed by a DNA double helix wrapping around it, with sound waveforms emerging — generative models being evolved](../assets/images/generative-darwin.png)
 
@@ -158,4 +158,4 @@ Estimated 1000-1500 lines of new code. Tractable. Builds on solid foundations.
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-07
+— the operator (via Nous Girl), 2026-06-07

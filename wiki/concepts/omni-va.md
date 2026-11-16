@@ -14,7 +14,7 @@
 
 ## Naming (read first)
 
-Per Chris (2026-06-09): the **Omni VA** is the **local model server slot**.
+Per the operator (2026-06-09): the **Omni VA** is the **local model server slot**.
 The **OmniStep** is the **agent** (the persona, system prompt, toolset).
 They are not the same thing — the agent is the SOUL, the omni-va is
 the BODY (the running process that hosts the model weights).

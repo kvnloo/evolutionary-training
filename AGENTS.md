@@ -22,7 +22,7 @@ alike — includes the ACE-Step merge. Music is in the DNA.
 - **Senter** (32A8B MoE) — sparse-upcycled from OmniStep. The agentic flagship, no Ohm.
 - **Senter Ohm** (32A8B + Ohm) — the **flagship**, with self-evolution.
 
-**Naming rules (Chris 2026-06-08):**
+**Naming rules (the operator 2026-06-08):**
 - "**OmniSenter**" is the **project name** (umbrella). It is **NOT** a model name.
 - "**Senter**" alone = the 32A8B MoE (no Ohm).
 - "**Senter Ohm**" = the 32A8B + Ohm (flagship).

@@ -25,7 +25,7 @@ related:
 
 # Senter Ohm 32A8B: The Math
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by the operator (via Nous Girl)
 
 The full sizing breakdown for the **Senter Ohm** ~32A8B flagship target.
 Per-layer params, active vs total, 4-bit vs bf16 disk, VRAM at inference,
@@ -165,7 +165,7 @@ model). Tractable for HF upload.
 
 ## The "fits the rig" check
 
-For Chris's 2× RTX 3090 (48GB total) setup:
+For the operator's 2× RTX 3090 (48GB total) setup:
 
 | Use case | Fits? | Notes |
 |---|---|---|
@@ -191,7 +191,7 @@ active**.
 
 ## The Q4_K_M is the recommended deployment
 
-For Chris's HF pattern:
+For the operator's HF pattern:
 - F16 for full-fidelity inference (research, eval)
 - Q8_0 for high-quality production (slight quality loss, 2× size reduction)
 - **Q4_K_M for everyday use** (best quality/size tradeoff, ~18GB for
@@ -214,4 +214,4 @@ download, then the model is local forever.
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-07
+— the operator (via Nous Girl), 2026-06-07

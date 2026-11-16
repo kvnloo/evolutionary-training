@@ -1,7 +1,7 @@
 ---
 title: "TurboFit: The Unified Local LLM Backend"
 date: 2026-06-22
-author: Chris (via Nous Girl)
+author: the operator (via Nous Girl)
 hero: assets/turbofit-concept.png
 tags: [turbofit, llm-backend, local-llm, cuda, llama-cpp, unified-backend, evolutionary-radio]
 related:
@@ -22,7 +22,7 @@ summary: >
 
 # TurboFit: The Unified Local LLM Backend
 
-> **TOWARDS SELF-IMPROVEMENT** — Chris's unified local inference backend, 2026-06-22
+> **TOWARDS SELF-IMPROVEMENT** — the operator's unified local inference backend, 2026-06-22
 
 You have 23 models on disk. Two GPUs. A radio that needs a brain. A
 Hermes Agent that needs an auxiliary. An omni-va that needs to stay
@@ -150,7 +150,7 @@ that fits. Under VRAM pressure, you naturally fall to lower tiers.
 
 ### The featured 7
 
-These are Chris's hand-picked models — the ones that earn a star in
+These are the operator's hand-picked models — the ones that earn a star in
 the Garage UI:
 
 | # | Model | Tier | Speed | GPU | Role |
@@ -835,4 +835,4 @@ serve register <alias> <path>      # add new model
 
 *TOWARDS SELF-IMPROVEMENT.*
 
-— Chris (via Nous Girl), 2026-06-22
+— the operator (via Nous Girl), 2026-06-22

@@ -10,7 +10,7 @@ Family of models, the training pipeline, the notebook manager, the Ohm
 runtime, and the integration with Hermes Agent. It is **not** a specific
 model name.
 
-> **Naming note (per Chris 2026-06-07):** going forward, "OmniSenter"
+> **Naming note (per the operator 2026-06-07):** going forward, "OmniSenter"
 > should only be used for:
 > 1. The project (this page)
 > 2. `OmniSenter 12B` — the small function-calling + omnimodal fusion

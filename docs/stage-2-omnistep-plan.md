@@ -146,7 +146,7 @@ head based on the user input's modality.
 
 Compared to the 39 hours of Stage 1, Stage 2 is a coffee break.
 
-## Open questions for Chris
+## Open questions for the operator
 
 1. **ACE-Step LM 4B vs 1.7B vs 0.6B** — the report lists 3 LM
    variants. The 4B is the strongest (and the only one that can match

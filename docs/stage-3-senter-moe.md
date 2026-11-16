@@ -138,7 +138,7 @@ HF safetensors for the MoE inference.
 4. **Expert quality variance** — some experts might be dead weight. Fix:
    per-expert usage monitoring, drop experts < 5% of tokens.
 
-## Open questions for Chris
+## Open questions for the operator
 
 1. **Expert count** — 6 (per blog sweet spot) or 4 (stricter 8B-active
    via no-shared-expert design)? Default = 6.

@@ -221,4 +221,4 @@ Per the 2026-06-08 architecture rule (in [`../AGENTS.md`](../AGENTS.md)):
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-07 (initial), updated 2026-06-09
+— the operator (via Nous Girl), 2026-06-07 (initial), updated 2026-06-09

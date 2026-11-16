@@ -9,7 +9,7 @@ edit_uri: ""
 
 # Copyright (appears in footer)
 copyright: >-
-  OmniSenter by Chris (SouthpawIN) · TOWARDS SELF-IMPROVEMENT
+  OmniSenter by the operator (SouthpawIN) · TOWARDS SELF-IMPROVEMENT
 
 # Don't include source/timestamp/docs paths in the nav
 docs_dir: docs

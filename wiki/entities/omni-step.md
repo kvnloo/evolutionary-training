@@ -6,7 +6,7 @@
 
 ## Naming (read first)
 
-Per Chris (2026-06-09): the **OmniStep** is the **agent** — the persona, system prompt, and toolset. The **Omni VA** is the **local model server slot** that hosts the agent's weights. They are not the same thing.
+Per the operator (2026-06-09): the **OmniStep** is the **agent** — the persona, system prompt, and toolset. The **Omni VA** is the **local model server slot** that hosts the agent's weights. They are not the same thing.
 
 | | OmniStep (the agent) | Omni VA (the model server slot) |
 |---|---|---|

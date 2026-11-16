@@ -9,7 +9,7 @@ summary: >
   model server (omni-va), the evolutionary radio, the note-taker, and
   the LLM wiki. **The wiki IS the agent spec.** A markdown file with
   the right frontmatter is a ready-to-spawn agent. The user's ideas
-  become their own agent fleet. *(First published 2026-06-09 — Chris's
+  become their own agent fleet. *(First published 2026-06-09 — the operator's
   request to keep notes in markdown so they can BE agents, captured here
   as the canonical reference.)*
 related:
@@ -23,7 +23,7 @@ related:
 
 # The Agent Hub: Markdown as Agents, the LLM Wiki of Your Ideas
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-09 architecture post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-09 architecture post by the operator (via Nous Girl)
 >
 > *Updated 2026-06-09: clarified that the **OmniStep agent** is the
 > persona/soul (not the model), and the **Omni VA** is just the model
@@ -229,7 +229,7 @@ and frontmatter differ.
 
 ## The 4 add-on tasks for Hermes
 
-Per Chris (2026-06-09): **all the local-intelligence pieces are
+Per the operator (2026-06-09): **all the local-intelligence pieces are
 add-on tasks for Hermes.** They all live behind the Hermes aux
 interface, the Hermes launcher, and the Hermes task system. Here's
 how each one maps:
@@ -317,7 +317,7 @@ WantedBy=default.target
 The choice of markdown as the agent spec language is deliberate.
 Five reasons:
 
-1. **The wiki is already markdown.** Per Chris (2026-06-09), the
+1. **The wiki is already markdown.** Per the operator (2026-06-09), the
    notes/wiki must be markdown so the system can read them. The
    same constraint naturally extends to agents — the language
    that's easy for the LLM to read is also easy for the system.

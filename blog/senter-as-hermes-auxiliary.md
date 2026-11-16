@@ -23,7 +23,7 @@ related:
 
 # The Senter Local Model Server: Standalone, Hermes Auxiliary, and the User-Idea Wiki
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-08 architecture post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-08 architecture post by the operator (via Nous Girl)
 > *Revised from the 2026-06-07 "Senter as the Hermes Auxiliary" post after the
 > standalone + wiki role became clear.*
 
@@ -85,7 +85,7 @@ omni-va.service (always-on, 0 VRAM when idle)
    /hermes/launch          — spawn a Hermes agent with --wiki preload (future)
 ```
 
-The whole thing is **"morphin' like liquid"** (Chris's term): the
+The whole thing is **"morphin' like liquid"** (the operator's term): the
 proxy probes free VRAM at request time, picks a tier
 (`ngl 0` for tight, `ngl 5/10` for mid, no `-ngl` for auto-spill when
 there's room), and llama.cpp figures out the rest. After S1 training
@@ -129,7 +129,7 @@ at all**:
   the **user-idea wiki** (next section). Asks follow-up questions to
   flesh out ideas.
 - **Calendar / personal context** — pluggable. Anything that fits the
-  "ambient perpetual curator" pattern Chris keeps describing.
+  "ambient perpetual curator" pattern the operator keeps describing.
 - **Voice assistant** (future) — the omni-va originally started life
   as a voice assistant; the "VA" in the name.
 
@@ -592,7 +592,7 @@ The omni-va service is **running today** with these properties:
   RAM, no GPU)
 - **VRAM when serving:** ~7.5 GB (with `--cpu-moe` and `--no-mmap`,
   model mostly in CPU-pinned host memory; the "low VRAM with
-  experts offloaded" config Chris likes)
+  experts offloaded" config the operator likes)
 - **Auto-heal:** `Restart=on-failure`. Crash → restart in 5s. Clean
   `systemctl stop` → exit 0, stays down (no auto-restart).
 - **Wake-on-ping:** proxy listens on `:8082`, spawns the backend on
@@ -635,4 +635,4 @@ full standalone + aux platform.
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-08
+— the operator (via Nous Girl), 2026-06-08

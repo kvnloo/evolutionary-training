@@ -138,9 +138,9 @@ hub launch spike-some-paper --query "…"
 The reverse (`hub demote`) takes an agent back to a wiki note,
 stripping the frontmatter and moving the file.
 
-## The 4 add-on tasks for Hermes (per Chris 2026-06-09)
+## The 4 add-on tasks for Hermes (per the operator 2026-06-09)
 
-Per Chris's framing, all the local-intelligence pieces are
+Per the operator's framing, all the local-intelligence pieces are
 **add-on tasks for Hermes** — they live behind the Hermes aux
 interface, the Hermes launcher, and the Hermes task system.
 
@@ -173,7 +173,7 @@ top. The note-taker is the writer behind the wiki.
 
 ## The gold judge (the cornerstone)
 
-Per Chris (2026-06-08): **the gold judge is the local model,
+Per the operator (2026-06-08): **the gold judge is the local model,
 always, never Gemini 3 Flash, never a cloud default.** The
 `~/.hermes/bin/gold_judge.py` module is the single source of truth
 for "which LLM evaluates things." The `auxiliary.gold_judge` block
@@ -186,7 +186,7 @@ gold judge follows automatically.
 
 ## Why markdown?
 
-1. **The wiki is already markdown** (per Chris 2026-06-09)
+1. **The wiki is already markdown** (per the operator 2026-06-09)
 2. **The user already knows markdown** — no new spec language
 3. **The LLM already knows markdown** — can read + write agents
 4. **Markdown is diffable and git-trackable** — agent fleet = git repo

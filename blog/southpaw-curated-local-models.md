@@ -1,7 +1,7 @@
 ---
 title: "Southpaw's Curated Local Models: Darwin Reason, Prism Eagle, Darwin Apex, and Carnice Apex"
 date: 2026-06-10
-author: Chris (via Nous Girl)
+author: the operator (via Nous Girl)
 hero: assets/images/local-models-lineup.png
 tags: [local-models, curated, darwin, apex, carnice, prism-eagle, dual-gpu, gguf, llama-cpp, speculative-decoding, mtp, nextn, turboquant]
 summary: >
@@ -21,7 +21,7 @@ related:
 
 # Southpaw's Curated Local Models: Darwin Reason, Darwin Apex, Carnice Apex, and Prism Eagle
 
-> **TOWARDS SELF-IMPROVEMENT** — Chris's curated local model picks, 2026-06-10
+> **TOWARDS SELF-IMPROVEMENT** — the operator's curated local model picks, 2026-06-10
 
 Four models. Two RTX 3090s. One `southpaw-models` command to switch
 between them. This is the local inference stack that powers the
@@ -58,7 +58,7 @@ code review that catches subtle bugs.
 
 **Why it earns GPU 0:**
 
-Darwin gets the primary GPU because it's the model Chris uses for
+Darwin gets the primary GPU because it's the model the operator uses for
 *thinking*, not just generating. 38 tok/s is fast enough for reading
 comfort but slow enough that every token had to earn its place.
 Combined with **turbo4 KV cache** (4-bit Walsh-Hadamard Transform),
@@ -78,7 +78,7 @@ research paper in working memory.
 - `--no-mmap` — direct GPU loading, consistent latency
 - Q4_K_M quant — 4-bit with medium quality preservation, 16.5 GB fits comfortably in 24 GB VRAM
 
-Darwin Reason is the model Chris trusts for decisions. When Hermes
+Darwin Reason is the model the operator trusts for decisions. When Hermes
 Agent needs an auxiliary model for deep reasoning or when the radio's
 brain needs to evaluate an idea, this is the judge.
 
@@ -384,7 +384,7 @@ crashes, reboots, and shell disconnects.
 
 ## Why these four?
 
-Chris's picks follow a clear philosophy:
+the operator's picks follow a clear philosophy:
 
 1. **One model for depth, one for speed, one for both.** Darwin Reason
    thinks carefully (38 tok/s, 28B dense). Prism Eagle delivers fast
@@ -539,4 +539,4 @@ curl http://127.0.0.1:11501/v1/models  # Darwin Apex
 
 *TOWARDS SELF-IMPROVEMENT.*
 
-— Chris (via Nous Girl), 2026-06-10
+— the operator (via Nous Girl), 2026-06-10

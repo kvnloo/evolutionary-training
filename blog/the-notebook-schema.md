@@ -8,7 +8,7 @@
 > for the full notebook-vs-wiki distinction.
 
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by the operator (via Nous Girl)
 
 ![The notebook as cosmic holographic artifact: open pages emanating beams of text, audio waveforms, and image fragments, observed by the Nous Girl character](../assets/images/notebook-schema.png)
 
@@ -318,4 +318,4 @@ Estimated code: 400-600 lines of Python for the manager + 200 lines for the Syne
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-07
+— the operator (via Nous Girl), 2026-06-07

@@ -26,7 +26,7 @@ related:
 
 # Synthesia: The Cross-Modal Memory Layer
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by the operator (via Nous Girl)
 
 ![Three streams — text characters, audio waveforms, image fragments — converging into a single bright point of memory. The synesthesia idea, visualized as cosmic convergence.](../assets/images/synesthesia-concept.png)
 
@@ -35,7 +35,7 @@ related:
 > the notebook. Read [`the-omni-family.md`](./the-omni-family.md) for
 > the full taxonomy.
 
-> **Chris (2026-06-07):** *"is there a way to have it be both a multimodal specialist as well as a genetic specialist with the experts in a 32b... maybe there's something clever we can do with the automatic always going and maybe categorizing different memories with sound and vision as well if those are hooked up... maybe memory embeddings would be easier to hold on to or be able to hold across different dimensions if we get to have different modalities to them..."*
+> **the operator (2026-06-07):** *"is there a way to have it be both a multimodal specialist as well as a genetic specialist with the experts in a 32b... maybe there's something clever we can do with the automatic always going and maybe categorizing different memories with sound and vision as well if those are hooked up... maybe memory embeddings would be easier to hold on to or be able to hold across different dimensions if we get to have different modalities to them..."*
 
 **Synthesia** is the Senter subsystem that **embeds, indexes, and retrieves
 memories across all modalities simultaneously** (text + audio + image +
@@ -53,7 +53,7 @@ has access to.
 
 ## How this helps (concrete benefits)
 
-This is the part Chris asked to be explicit about. Synthesia is not just a
+This is the part the operator asked to be explicit about. Synthesia is not just a
 clever idea — it makes the whole Senter system materially better at the
 things it's supposed to do.
 
@@ -111,7 +111,7 @@ listening to ambient typing, and asking about MoE routing."
 Because the indexer is always-on, the notebook becomes a **continuous
 multimodal life-log** — a personal search engine for your own experiences.
 Every moment is captured, indexed, and retrievable. This is the "automatic
-always going" Chris described.
+always going" the operator described.
 
 ### 6. Better training signal for the agent
 
@@ -123,12 +123,12 @@ for:
 - Audio-action pairs (what was the user doing when X sound happened?)
 - Text-visual-action triplets (recipe text + cooking video + audio cues)
 
-The "in some way" Chris intuited is: the synesthesia stream **is** the
+The "in some way" the operator intuited is: the synesthesia stream **is** the
 agentic training data.
 
 ### 7. Memory is dimensional (the technical win)
 
-Chris's intuition: *"memory embeddings would be easier to hold on to
+the operator's intuition: *"memory embeddings would be easier to hold on to
 across different dimensions if we get to have different modalities to
 them."* This is technically true:
 
@@ -172,7 +172,7 @@ audio signature of past typing, and the image of the terminal screen.
 
 ### 10. The genetic + multimodal expert fusion
 
-Chris asked: *"both a multimodal specialist as well as a genetic
+the operator asked: *"both a multimodal specialist as well as a genetic
 specialist with the experts."* The synesthesia expert does both:
 
 - **Multimodal specialist**: encodes audio + image + text into a joint
@@ -251,7 +251,7 @@ small model (could be a 1-3B distilled from ImageBind) that:
 ## The synesthesia expert (the new MoE expert)
 
 The synesthesia expert is one of the top-k routed experts in the Senter
-Ohm MoE. It's the **multimodal + agentic specialist** Chris described.
+Ohm MoE. It's the **multimodal + agentic specialist** the operator described.
 Trained on:
 
 | Data | Modalities | Purpose |
@@ -306,4 +306,4 @@ One expert, both jobs, same forward pass.
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-07
+— the operator (via Nous Girl), 2026-06-07

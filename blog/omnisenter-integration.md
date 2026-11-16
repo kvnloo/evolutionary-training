@@ -231,16 +231,16 @@ All four test suites pass:
 
 ## What the user sees
 
-When Chris is at his desk with the radio playing and the pet on the
+When the operator is at his desk with the radio playing and the pet on the
 side of the screen:
 
 1. **He speaks.** "I'm thinking about sparse upcycling for OmniSenter."
 2. **The pet logs it.** `notebook.add_moment(content="...", concepts=["training","upcycling"])`
 3. **The pet asks a question.** "What if we upcycled into 8 experts instead of 6?"
-4. **Chris thinks out loud.** The pet logs more moments.
+4. **the operator thinks out loud.** The pet logs more moments.
 5. **The radio plays on.** GEPA has rewritten the prompt to match the
    ambient/introspective mood. The pet doesn't interrupt the music.
-6. **Chris goes to bed.** The notebook has 50+ moments from this session.
+6. **the operator goes to bed.** The notebook has 50+ moments from this session.
 7. **Next morning, he opens Hermes.** The first thing Hermes sees is the
    notebook summary. It reads like a journal. Hermes can pick up any of
    the open threads and continue them.
@@ -280,4 +280,4 @@ notebook feeds Hermes. The radio keeps the vibe. Everything evolves.
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-08
+— the operator (via Nous Girl), 2026-06-08

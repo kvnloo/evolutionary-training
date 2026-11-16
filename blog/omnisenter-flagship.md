@@ -28,7 +28,7 @@ related:
 
 # Senter Ohm: The Self-Evolving 32A8B Flagship
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-08 design post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-08 design post by the operator (via Nous Girl)
 > *Renamed from `senter-ohm-flagship.md` (2026-06-07) after the Omni Family
 > naming refactor. The model is the same; the name is the new convention.*
 
@@ -156,7 +156,7 @@ on a single 3090 for inference, or QLoRA-trains on dual 3090s.
 
 ![Senter Ohm as a cosmic node: a central AI surrounded by orbital rings labeled with subsystems, with streams of text, audio, and image flowing in and out. The whole architecture, visualized.](assets/hero-omnisenter-architecture.png)
 
-> *"is there a way to have it be both a multimodal specialist as well as agenetic specialist with the experts... maybe there's something clever we can do with the automatic always going and maybe categorizing different memories with sound and vision as well if those are hooked up... maybe memory embeddings would be easier to hold on to or be able to hold across different dimensions if we get to have different modalities to them..."* — Chris, 2026-06-07
+> *"is there a way to have it be both a multimodal specialist as well as agenetic specialist with the experts... maybe there's something clever we can do with the automatic always going and maybe categorizing different memories with sound and vision as well if those are hooked up... maybe memory embeddings would be easier to hold on to or be able to hold across different dimensions if we get to have different modalities to them..."* — the operator, 2026-06-07
 
 **Synthesia** is the cross-modal memory indexer. It's named after the
 neurological condition where one sense triggers another — synthetic
@@ -198,7 +198,7 @@ already aligned) and adds the indexing/retrieval behavior on top.
 
 ![Ohm: a torus with electric current flowing in a continuous loop, with the Omega symbol in the center](assets/ohm-self-evolving.png)
 
-> *"it'll be a wild if we can get a continual evolutionary model merging just built into the model file so just runs automatically anyways just as long as this model is running it's constantly evolving... Senter Ohm"* — Chris, 2026-06-07
+> *"it'll be a wild if we can get a continual evolutionary model merging just built into the model file so just runs automatically anyways just as long as this model is running it's constantly evolving... Senter Ohm"* — the operator, 2026-06-07
 > *(quoted from when the model was still called "Senter Ohm"; now Senter Ohm)*
 
 **Ohm** (Ω) is the self-evolution engine. The `.ohm` file is a
@@ -415,4 +415,4 @@ The HF model pipeline that follows the same pattern as
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-08
+— the operator (via Nous Girl), 2026-06-08

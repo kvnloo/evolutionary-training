@@ -7,7 +7,7 @@
 > **Senter Ohm**, not to any "OmniSenter 12B" (which is gone).
 
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by the operator (via Nous Girl)
 
 ![A dense neural network being broken apart and reorganized into multiple parallel expert columns, in retro manga industrial style](../assets/images/sparse-upcycling.png)
 
@@ -201,4 +201,4 @@ Plus the headline: the [Ohm](./the-ohm-runtime.md) runtime can evolve each exper
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-07
+— the operator (via Nous Girl), 2026-06-07

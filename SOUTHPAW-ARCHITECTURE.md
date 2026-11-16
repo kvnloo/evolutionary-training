@@ -15,7 +15,7 @@ The system is designed to be **self-improving** — models continuously evolve t
 ## 🏗️ Project 1: Local Model Server
 
 ### Purpose
-A unified, always-on local inference server running Chris's hand-picked fine-tunes of his favorite architectures. Two models on two GPUs, auto-starting on first request, auto-killing after idle.
+A unified, always-on local inference server running the operator's hand-picked fine-tunes of his favorite architectures. Two models on two GPUs, auto-starting on first request, auto-killing after idle.
 
 ### Models
 
@@ -47,7 +47,7 @@ A unified, always-on local inference server running Chris's hand-picked fine-tun
 ## 🏗️ Project 2: Curated Models Skill (`/models-southpaw`)
 
 ### Purpose
-Replace the default `/models` command with Chris's curated picks — both API models available through Nous/Hermes and local models with auto-download + hardware-optimized inference settings.
+Replace the default `/models` command with the operator's curated picks — both API models available through Nous/Hermes and local models with auto-download + hardware-optimized inference settings.
 
 ### Design
 
@@ -81,7 +81,7 @@ When a user selects a local model, the skill detects their GPU VRAM and auto-con
 - Generates optimized `llama-server` command for detected hardware
 - Supports both single-GPU and multi-GPU (tensor split) configurations
 - Shareable as a skill — anyone using Hermes Agent can install it
-- Maintains a curated `models.json` with Chris's picks, updated via HF API
+- Maintains a curated `models.json` with the operator's picks, updated via HF API
 
 ---
 
@@ -119,7 +119,7 @@ OmniStep 12A3B
 ## 🏗️ Project 4: OmniSenter Spark 20A4B — Nous Girl Agent
 
 ### Purpose
-The **Nous Girl** agent — a voice-to-voice note-taking, music, and vibe copilot that operates within Hermes Agent. This is Chris's personal assistant agent with tool-calling capabilities.
+The **Nous Girl** agent — a voice-to-voice note-taking, music, and vibe copilot that operates within Hermes Agent. This is the operator's personal assistant agent with tool-calling capabilities.
 
 ### Architecture
 
@@ -146,7 +146,7 @@ OmniSenter Spark 20A4B
 3. **Local session data** — 318 files, 134MB across 7 agent profiles (anser, senter, chizul, nous-girl, klerik, frieza, kashik)
 4. **Nemotron SFT data** — `nvidia/Nemotron-Pretraining-SFT-v1` (6.5T tokens, STEM/code/math)
 5. **Nous Research Atropos** — RL-trained specialist models and SWE tasks
-6. **Discord vault** — Chris's personal collection following Nous Research from the beginning
+6. **Discord vault** — the operator's personal collection following Nous Research from the beginning
 
 ---
 
@@ -351,7 +351,7 @@ The two loops feed each other: training produces better checkpoints for evolutio
 | `NousResearch/atropos-artifacts` | 9 items | RL-trained specialists, SWE tasks |
 | `nvidia/Nemotron-CC-v2.1` | 8.79B rows | English web crawl |
 | Nous Research collections | Multiple | Hermes 4, DeepHermes, YaRN, Dolma |
-| Chris's personal vault | — | Curated since Nous Research founding |
+| the operator's personal vault | — | Curated since Nous Research founding |
 
 ---
 

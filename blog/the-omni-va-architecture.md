@@ -24,7 +24,7 @@ related:
 
 # The Omni VA Architecture: The Local Model Server That Powers Standalone + Aux
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-08 architecture post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-08 architecture post by the operator (via Nous Girl)
 
 > ⚠️ **2026-06-21 UPDATE — TurboFit supersedes this standalone architecture.**
 > The omni-va concept described here is now **subsumed by TurboFit**. The
@@ -81,7 +81,7 @@ omni-va.service (always-on, 0 VRAM when idle)
    /hermes/launch          — spawn Hermes agent with --wiki preload (future)
 ```
 
-The whole thing is **"morphin' like liquid"** (Chris's term): the
+The whole thing is **"morphin' like liquid"** (the operator's term): the
 proxy probes free VRAM at request time, picks a tier
 (`ngl 0` for tight, `ngl 5/10` for mid, no `-ngl` for auto-spill when
 there's room), and llama.cpp figures out the rest. After S1 training

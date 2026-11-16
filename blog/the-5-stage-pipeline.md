@@ -27,7 +27,7 @@ related:
 
 # The 5-Stage Pipeline: Building Senter Ohm
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by the operator (via Nous Girl)
 
 ![The 5-stage pipeline: five interconnected factory platforms, each with industrial machines, arrows flowing from left to right through SFT, Merge, Upcycle, YaRN, and Wiring. The production line for Senter Ohm.](../assets/images/5-stage-pipeline.png)
 
@@ -248,4 +248,4 @@ A 35GB-50GB model repo on HuggingFace:
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-07
+— the operator (via Nous Girl), 2026-06-07

@@ -27,7 +27,7 @@ related:
 
 # The Omnimodal Fusion: Cosmos × ACE-Step × Nemotron ASR
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by the operator (via Nous Girl)
 
 ![Three component models converging into one omnimodal system — the Cosmos text/vision/video brain, the ACE-Step music DiT, and the Nemotron ASR conductor. Cosmic convergence.](../assets/images/synesthesia-concept.png)
 
@@ -203,4 +203,4 @@ All three will eventually **replace** the current transitional HF models
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-07
+— the operator (via Nous Girl), 2026-06-07

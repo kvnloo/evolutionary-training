@@ -142,7 +142,7 @@ In the future (when OmniStep or Senter is in the slot), the radio
 will be able to evolve the **same model that drives it** — the
 brain, the judge, the aux, all the same model, all evolving
 together. That's the "self-contained OmniStep Ohm or Senter Ohm"
-that Chris mentioned.
+that the operator mentioned.
 
 ## See also
 

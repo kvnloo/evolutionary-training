@@ -111,7 +111,7 @@ title: Blog
 </div>
 <h3><a href="evolutionary-radio-as-desk-pet.html">The Evolutionary Radio is the Desk Pet</a></h3>
 <p class="meta">2026-06-08 · <span class="read-time">12 min read</span></p>
-<p>One button starts the whole local intelligence stack: omni-va + brain + wiki + vault + compactor. The local model IS the gold judge, the Hermes aux, and the brain. The unified vision post (Chris's 2026-06-08 epiphany).</p>
+<p>One button starts the whole local intelligence stack: omni-va + brain + wiki + vault + compactor. The local model IS the gold judge, the Hermes aux, and the brain. The unified vision post (the operator's 2026-06-08 epiphany).</p>
 </div>
 <div class="blog-card">
 <h3><a href="the-omni-va-architecture.html">The Omni VA Architecture</a></h3>

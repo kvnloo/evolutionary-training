@@ -29,7 +29,7 @@ related:
 
 # OmniStep Multimodal: The Destination Unified Model
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by the operator (via Nous Girl)
 
 ![A single unified model — text backbone with all modality heads (vision, audio, music, speech) attached. The OmniStep destination, visualized as cosmic convergence.](../assets/images/synesthesia-concept.png)
 
@@ -40,14 +40,14 @@ related:
 > replaced by the new architecture. Read
 > [`the-omni-family.md`](./the-omni-family.md) for the full taxonomy.
 
-> **Chris (2026-06-03):** *"I want it to have all modalities in and be able to speak, type, and play music out — by combining the Qwen2.5-Omni with the largest version of ACE-Step."*
+> **the operator (2026-06-03):** *"I want it to have all modalities in and be able to speak, type, and play music out — by combining the Qwen2.5-Omni with the largest version of ACE-Step."*
 >
 > *"the current omni step is not text only it is all modalities and as speech text and music out and actually I want to upload to my hugging face and after you test all that."*
 
 Translation: the **current** system already has all modalities (text,
 speech in/out, image/video in, music out) via its plugin architecture.
 The destination is a **single unified model** that has all of these in
-one weight space — and after we test it, Chris wants to upload it to
+one weight space — and after we test it, the operator wants to upload it to
 HuggingFace.
 
 ## What the current system already has (multimodal via plugins)
@@ -100,7 +100,7 @@ can't directly convex-combine LLM attention with DiT cross-attention.
 3. **Train a unified model.** Joint training to absorb the DiT into
    OmniStep's weight space. Research project, not for today.
 
-**Chris's instruction:** *"if we have to do another Darwin family
+**the operator's instruction:** *"if we have to do another Darwin family
 evolutionary run to make that happen then that's what we got to do, and
 another merge kit then that's what we got to do."* — i.e., do whatever's
 necessary, run another Darwin evolution if needed. Default to approach
@@ -108,7 +108,7 @@ necessary, run another Darwin evolution if needed. Default to approach
 
 ## What "largest ACE-Step" means (the open question)
 
-Chris said *"I want to make sure that the largest version of ACE-Step
+the operator said *"I want to make sure that the largest version of ACE-Step
 available is the one we are using with OmniStep."* The candidates:
 
 | Version | Released | Total params | Gen latency (60s) | VRAM | License |
@@ -235,4 +235,4 @@ OmniStep Multimodal at the new architecture scale:
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-07
+— the operator (via Nous Girl), 2026-06-07

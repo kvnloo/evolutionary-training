@@ -12,7 +12,7 @@ summary: >
   LLM wiki, a vault of profile templates, a Wikipedia compaction
   layer, and the music radio. The local model IS the gold judge.
   The local model IS the Hermes aux. The local model IS the
-  brain. *(First published 2026-06-08 — Chris's epiphany, captured
+  brain. *(First published 2026-06-08 — the operator's epiphany, captured
   here as the canonical architecture.)*
 related:
   - the-omni-family.md
@@ -24,7 +24,7 @@ related:
 
 # The Evolutionary Radio is the Desk Pet: One Button, the Whole Local Intelligence
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-08 architecture post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-08 architecture post by the operator (via Nous Girl)
 
 > **The epiphany, in one paragraph.** The Evolutionary Radio is not
 > a music app. It's the **desk pet** — the single button that, when
@@ -149,7 +149,7 @@ the user is idle, the bigger brain fits.
 
 ## The Gold Judge rule (the cornerstone)
 
-Per Chris (2026-06-08): **the gold judge is the auxiliary model,**
+Per the operator (2026-06-08): **the gold judge is the auxiliary model,**
 **never Gemini 3 Flash, never a cloud default, always the local**
 **model.** Implemented in two places:
 
@@ -301,9 +301,9 @@ Still to build (this is the work-in-progress list):
 - **`/wiki/*` write endpoints** on omni-va proxy — ⚠️ PARTIAL (write tested via direct `wiki_manager.py`, proxy endpoints still need wiring for `/wiki/write`)
   All wired up (see the swap procedure in the omni-va arch post).
 
-## The chat interface is Hermes (per Chris 2026-06-09)
+## The chat interface is Hermes (per the operator 2026-06-09)
 
-Per Chris: *"we should just try to use Hermes agent as much as possible"*. The Evolutionary Radio is just a music engine. The chat interface with the OmniStep agent is **Hermes itself** — no custom TUI.
+Per the operator: *"we should just try to use Hermes agent as much as possible"*. The Evolutionary Radio is just a music engine. The chat interface with the OmniStep agent is **Hermes itself** — no custom TUI.
 
 To chat with the OmniStep agent:
 
@@ -323,7 +323,7 @@ The radio's `brain.py` uses the **same** OmniStep agent under the hood. Both sur
 
 ## The radio, stripped down (2026-06-09)
 
-Per Chris: *"for the evolutionary radio just strip it down"*. The radio's Darwin merge + GEPA prompt evolution are moved to `code/advanced/` and disabled by default. The default radio is now: play, generate, polite-chat. Simple.
+Per the operator: *"for the evolutionary radio just strip it down"*. The radio's Darwin merge + GEPA prompt evolution are moved to `code/advanced/` and disabled by default. The default radio is now: play, generate, polite-chat. Simple.
 
 **Code reduction:** from ~2115 lines to ~1280 lines (40% smaller).
 
