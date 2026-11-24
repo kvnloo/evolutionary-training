@@ -46,6 +46,22 @@ TRAINING_CONFIGS = {
         "warmup_ratio": 0.03,
         "epochs": 3,
     },
+    # z0 integration canary for a single 12 GB Ampere GPU.
+    # Deliberately small: proves the E2E training path, not model quality.
+    "qlora-7b-12gb-smoke": {
+        "method": "qlora",
+        "bits": 4,
+        "lora_r": 8,
+        "lora_alpha": 16,
+        "lora_dropout": 0.05,
+        "target_modules": ["q_proj", "v_proj"],
+        "batch_size": 1,
+        "gradient_accumulation": 16,
+        "learning_rate": 2e-4,
+        "max_seq_len": 512,
+        "warmup_ratio": 0.03,
+        "epochs": 1,
+    },
     "qlora-15b": {
         "method": "qlora",
         "bits": 4,
